@@ -1,10 +1,54 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav a {
+  display: block;
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+i {
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+h2 {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 2px 0;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 2px;
+}
+
+.btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #0084a6;
+  border-width: 2px;
+}
+
+footer {
+  color: #666;
+  border-top: 2px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .right-align {
+    text-align: right;
+  }
+
+  .left-align {
+    text-align: left;
+  }
+
 }
